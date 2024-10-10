@@ -10,7 +10,7 @@ describe("counter", () => {
  
   const program = anchor.workspace.Counter as Program<Counter>;
  
-  // Generate a new keypair to use as the address the counter account
+  // Generate a new keypair to use as the address the counter account adjkfd
   const counterAccount = new Keypair();
  
   it("Is initialized!", async () => {
